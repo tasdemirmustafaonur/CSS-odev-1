@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fonts Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!--Navbar - Start-->
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="text-center">Müzik Dükkanım</h1>
+    
+                <ul>
+                    <li>
+                        <a href="index.html">Anasayfa</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Ürünlerimiz</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">Hakkımızda</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Navbar - End-->
+    <!--Content - Start-->
+    <section id="products">
+        <!--Articles - Start-->
+        <h2 class="text-center">Ürünlerimiz</h2>
+        <div class="container">
+            <div class="products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/fender.jpeg" alt="Fender">
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                            Fender Custom Shop Masterbuilt 1956 Stratocaster Journeyman Relic
+                        </div>
+                        <div class="description">
+                            Akçaağaç Klavye | Beyaz Renk
+                        </div>
+                        <div class="price">
+                            70,344 TL
+                        </div>
+                        <div class="installment">
+                            Kredi Kartı Fiyatı:
+                            <span id="inst-price"> 74,046 TL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Satın Al</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/fender3.jpeg" alt="Fender">
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                            Fender ESC-110 Klasik Gitar
+                        </div>
+                        <div class="description">
+                            Ceviz Klavye | Standart Sap 
+                        </div>
+                        <div class="price">
+                            1,800 TL
+                        </div>
+                        <div class="installment">
+                            Kredi Kartı Fiyatı:
+                            <span id="inst-price"> 2,100 TL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Satın Al</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/bateri.jpeg" alt="Fender">
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                            Yamaha Gigmaker Bateri Takımı
+                        </div>
+                        <div class="description">
+                            Black Glitter 
+                        </div>
+                        <div class="price">
+                            7,520 TL
+                        </div>
+                        <div class="installment">
+                            Kredi Kartı Fiyatı:
+                            <span id="inst-price"> 7.935 TL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Satın Al</a>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="product-image">
+                        <img src="img/keman.jpeg" alt="Fender">
+                    </div>
+                    <div class="product-info">
+                        <div class="title">
+                            Vivaldi 1414 PL 4/4 Keman
+                        </div>
+                        <div class="description">
+                            Ceviz Ağacı
+                        </div>
+                        <div class="price">
+                            465 TL
+                        </div>
+                        <div class="installment">
+                            Kredi Kartı Fiyatı:
+                            <span id="inst-price"> 635 TL</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">Satın Al</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Articles - End-->
+    </section>
+    <!--Content - End-->
+
+    <!--Footer - Start-->
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h1 class="text-center">Bize Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input 
+                        type="text"
+                        class="form-control" 
+                        name="name" 
+                        id="name" 
+                        placeholder="İsim"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input 
+                        type="text"
+                        class="form-control" 
+                        name="email" 
+                        id="email" 
+                        placeholder="E-mail"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                        name="message" 
+                        id="message" 
+                        class="form-control" 
+                        rows="5"
+                        placeholder="Mesajınız..."
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!--Footer - End-->
+</body>
+</html>
